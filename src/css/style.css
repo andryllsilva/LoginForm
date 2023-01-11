@@ -1,6 +1,3 @@
-html{
-    font-size: 62.5%;
-}
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -60,13 +57,91 @@ body{
     height: 200px;
     width: 100px;
     background: linear-gradient(#ff966d, #fa538d, #89379c);
-    border-radius: 200px;
-    border: 30px solid #e2c5e2;
+    border-radius: 70px;
+}
+
+.design .pill-4{
+    bottom: -180px;
+    left: 220px;
+    position: absolute;
+    height: 300px;
+    width: 120px;
+    background: linear-gradient(#ff966d, #fa538d, #89379c);
+    border-radius: 70px;
 }
 
 .login{
     grid-area: login;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.text-input{
+    background: #e6e6e6;
+    height: 40px;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0 15px;
+    margin: 5px 0;
+}
+
+.login h3.title{
+    margin: 15px 0;
+}
+.text-input input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+.text-input i{
+    color: #686868;
+}
+
+::placeholder{
+    color: #9a9a9a;
+}
+
+.login-btn{
+    width: 68%;
+    padding: 10px;
+    color: #fff;
+    background: linear-gradient(to right, #ff966d, #fa538d, #89379c);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+a{
+    font-size: 12px;
+    color: #9a9a9a;
+    cursor: pointer;
+    user-select: none;
+}
+
+a.forgot{
+    margin-top: 15px;
+}
+
+.create{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+}
+
+.create i{
+    color: #9a9a9a;
+    margin-left: 10px;
 }
 
 @media (min-width: 768px){
