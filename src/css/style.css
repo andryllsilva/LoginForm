@@ -22,7 +22,8 @@ body{
 
 .design{
     grid-area: design;
-    position: relative
+    position: relative;
+    display: none;
 }
 
 .rotate-45{
